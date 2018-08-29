@@ -1,0 +1,29 @@
+{
+  "name": "kirin-cli",
+  "version": "1.0.0",
+  "description": "kinrin client create project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KellerLong/kirin-cli.git"
+  },
+  "keywords": [
+    "kirin",
+    "react",
+    "oop"
+  ],
+  "bin": {
+    "kirin-cli": "index.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KellerLong/kirin-cli/issues"
+  },
+  "homepage": "https://github.com/KellerLong/kirin-cli#readme",
+  "dependencies": {
+    "commander": "^2.17.1"
+  }
+}
