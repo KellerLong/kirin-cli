@@ -23,4 +23,4 @@ Docs are available at https://kirin-cli.kellerlong.com/ - we are still working o
 
 ## License
 
-[MIT](https://github.com/kellerlong/kirin-cli/blob/dev/LICENSE)
+[MIT](https://github.com/KellerLong/kirin-cli/blob/master/LICENSE)
