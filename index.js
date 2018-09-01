@@ -15,10 +15,9 @@ function run(pro) {
   if (pro.init) {
     // 初始化一个项目
     let dirName = pro.init;
-    // 如果没有传文件夹名  就给一个空的名字
+    // 如果没有传文件夹名  就给一个空的名字 即当前文件夹
     if ( 'boolean' === typeof dirName ) {
-      console.error('\n\n  Error: not found folder!');
-      return false;
+      dirName = '.';
     }
     // 开始初始化
     projectManage.run(dirName);
